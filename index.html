@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM assignment</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <select id="colorSelect">
+        <option>Red</option>
+        <option>Green</option>
+        <option>White</option>
+        <option>Black</option>
+    </select>
+
+    <h4>1. A program to remove items from above drop-down list.</h4>
+    <button onClick="removeColor()">Remove</button>
+
+    <h4>2. A JavaScript program to change the color given text from above drop-down list.</h4>
+    <button onClick="changeColor()">Change Color</button>
+    <p id="sampleText">Sleep all day whilst slave is at work, play all night whilst slave is sleeping lounge in doorway and mew toy mouse squeak roll over.<br>
+        Need to chase tail mewl for food at 4am have secret plans. Kitty poochy. Fall over dead (not really but gets sypathy) go crazy with excitement when <br>
+        plates are clanked together signalling the arrival of cat food yet steal mom's crouton while she is in the bathroom annoy the old grumpy cat, start a <br>
+        fight and then retreat to wash when i lose so destroy couch as revenge.
+    </p>
+
+    <h4>3. A JavaScript function to get the values of First and Last names of the following form.</h4>
+    <form id="form1">
+        First name: <input type="text" name="fname" value="David"><br>
+        Last name: <input type="text" name="lname" value="Beckham"><br>
+        <input type="button" onclick="getFormValues()" value="Get Values">
+        <br>The result values are in the console.
+    </form>
+
+    <h4>4. A JavaScript program to display a random image (clicking on a button) from the following list.</h4>
+    <button onClick="displayImage()">Display Image</button><br><br>
+    <img id="newImage">
+</body>
+</html>
